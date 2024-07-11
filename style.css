@@ -1,0 +1,32 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.contenedor{
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 !important;
+}
+
+.iconos{
+    width: 30%;
+    height: 100%;
+}
+
+.form-text {
+    height: 20px; /* Altura fija para los mensajes de error */
+    margin: 0; /* Elimina márgenes adicionales */
+}
+
+p{
+    margin:0 !important;
+}
+
+select, #fechaNacimiento{
+    cursor: pointer;
+}
